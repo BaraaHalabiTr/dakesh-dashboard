@@ -17,6 +17,7 @@ import VisibilityIcon from "@mui/icons-material/Visibility";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import "./Login.css";
+
 const Login = () => {
   const [values, setValues] = useState({
     email: "",
@@ -99,9 +100,7 @@ const Login = () => {
             type={values.showPassword ? "text" : "password"}
           />
 
-          <Button 
-          
-          fullWidth variant="outlined" type="submit">
+          <Button fullWidth variant="outlined" type="submit">
             Sign in
           </Button>
         </form>

@@ -1,12 +1,14 @@
 import React from "react";
 import Sidenav from "../../component/Sidenav";
-import  Box from "@mui/material/Box";
+import Box from "@mui/material/Box";
 const About = () => {
   return (
     <>
-      <Box sx={{ display: "flex" }}>
+      <Box sx={{ display: "flex", p: 3 }}>
         <Sidenav />
-        <h1> Home </h1>
+        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+          <h1> Home</h1>
+        </Box>
       </Box>
     </>
   );
