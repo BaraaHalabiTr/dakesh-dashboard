@@ -1,0 +1,37 @@
+/* * {
+  padding: 0px;
+  margin: 0px;
+} */
+.paddingRightCards {
+  /* padding: 10px 10px 10px 10px; */
+  padding: 10px;
+}
+.priceTitle {
+  font-weight: 600;
+}
+.priceSubTitle {
+  font-size: 14px;
+}
+
+.iconStyle {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.bigIconStyle {
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin-top: 10px;
+  margin-left: 0px;
+}
+.cardStyle {
+  /* color:white !important */
+  /* background: #d0b8a8; */
+  /* background-color: #85586f !important; */
+  background: linear-gradient(158deg, #85586f 0%, #d0b8a8 100%);
+}
+.bgcolor {
+  min-height: 100vh;
+  background: #eceff1;
+  background: linear-gradient(#f8ede3 0%, #dfd3c3 100%);
+}

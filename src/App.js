@@ -5,6 +5,7 @@ import Admins from "./pages/Admins/Admins";
 import Settings from "./pages/Settings/Settings";
 import Charts from "./pages/Charts/Chart";
 import Login from "./pages/Login/Login";
+import "./App.css";
 function App() {
   return (
     <>
