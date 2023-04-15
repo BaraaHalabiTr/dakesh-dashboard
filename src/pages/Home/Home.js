@@ -72,7 +72,7 @@ const Home = () => {
 
               <Grid item xs={4}>
                 <Stack spacing={2}>
-                  <Card sx={{ maxWidth: 345 }} className="cardStyle">
+                  <Card sx={{ minWidth: 49 + "%" }} className="cardStyle">
                     <Stack spacing={2} direction={"row"}>
                       <div className="iconStyle">
                         <StorefrontIcon />
@@ -85,7 +85,7 @@ const Home = () => {
                     </Stack>
                   </Card>
 
-                  <Card sx={{ maxWidth: 345 }} className="cardStyle">
+                  <Card sx={{ minWidth: 49 + "%" }} className="cardStyle">
                     <Stack spacing={2} direction={"row"}>
                       <div className="iconStyle">
                         <MoodIcon />
