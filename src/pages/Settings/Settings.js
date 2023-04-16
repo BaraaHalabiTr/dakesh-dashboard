@@ -1,15 +1,20 @@
 import React from "react";
+import List from "./List";
 import Sidenav from "../../component/Sidenav";
 import { Box } from "@mui/material";
 const Settings = () => {
   return (
     <>
-      <Box sx={{ display: "flex", p: 3 }}>
+      <div className="bgcolor">
         <Sidenav />
-        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-          <h1> Settings </h1>
+        <Box height={70}>
+          <Box sx={{ display: "flex" }}>
+            <Box component={"main"} sx={{ flexGrow: 1, p: 3 }}>
+              <List />
+            </Box>
+          </Box>
         </Box>
-      </Box>
+      </div>
     </>
   );
 };
