@@ -12,7 +12,7 @@ import StorefrontIcon from "@mui/icons-material/Storefront";
 import InventoryIcon from "@mui/icons-material/Inventory";
 import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
 import Accordionn from "../../component/Accordion";
-
+import Barchart from "../../Charts/BarChart.jsx";
 const Home = () => {
   return (
     <>
@@ -106,7 +106,7 @@ const Home = () => {
               <Grid item xs={8}>
                 <Card sx={{ height: 60 + "vh" }}>
                   <CardContent>
-                    <div> hi </div>
+                    <Barchart />
                   </CardContent>
                 </Card>
               </Grid>
